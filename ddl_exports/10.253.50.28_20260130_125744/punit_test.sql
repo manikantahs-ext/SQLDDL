@@ -1,0 +1,147 @@
+-- DDL Export
+-- Server: 10.253.50.28
+-- Database: punit_test
+-- Exported: 2026-01-30T12:58:00.723557
+
+USE punit_test;
+GO
+
+-- --------------------------------------------------
+-- TABLE dbo.PUNIT_B2B_NEW
+-- --------------------------------------------------
+CREATE TABLE [dbo].[PUNIT_B2B_NEW]
+(
+    [B2B_EMP_ID] VARCHAR(20) NULL,
+    [B2B_EMP_NAME] VARCHAR(20) NULL,
+    [B2B_EMP_MOBILE] VARCHAR(20) NULL
+);
+
+GO
+
+-- --------------------------------------------------
+-- TABLE dbo.punit_client_details
+-- --------------------------------------------------
+CREATE TABLE [dbo].[punit_client_details]
+(
+    [cl_code] VARCHAR(10) NOT NULL,
+    [branch_cd] VARCHAR(10) NULL,
+    [party_code] VARCHAR(10) NOT NULL,
+    [sub_broker] VARCHAR(10) NOT NULL,
+    [trader] VARCHAR(20) NULL,
+    [long_name] VARCHAR(100) NULL,
+    [short_name] VARCHAR(21) NOT NULL,
+    [l_address1] VARCHAR(40) NOT NULL,
+    [l_city] VARCHAR(40) NULL,
+    [l_address2] VARCHAR(40) NULL,
+    [l_state] VARCHAR(50) NULL,
+    [l_address3] VARCHAR(40) NULL,
+    [l_nation] VARCHAR(15) NULL,
+    [l_zip] VARCHAR(10) NULL,
+    [pan_gir_no] VARCHAR(50) NULL,
+    [ward_no] VARCHAR(50) NULL,
+    [sebi_regn_no] VARCHAR(25) NULL,
+    [res_phone1] VARCHAR(15) NULL,
+    [res_phone2] VARCHAR(15) NULL,
+    [off_phone1] VARCHAR(15) NULL,
+    [off_phone2] VARCHAR(15) NULL,
+    [mobile_pager] VARCHAR(40) NULL,
+    [fax] VARCHAR(15) NULL,
+    [email] VARCHAR(50) NULL,
+    [cl_type] VARCHAR(3) NOT NULL,
+    [cl_status] VARCHAR(3) NOT NULL,
+    [family] VARCHAR(10) NOT NULL,
+    [region] VARCHAR(50) NULL,
+    [area] VARCHAR(10) NULL,
+    [p_address1] VARCHAR(50) NULL,
+    [p_city] VARCHAR(40) NULL,
+    [p_address2] VARCHAR(50) NULL,
+    [p_state] VARCHAR(50) NULL,
+    [p_address3] VARCHAR(50) NULL,
+    [p_nation] VARCHAR(15) NULL,
+    [p_zip] VARCHAR(10) NULL,
+    [p_phone] VARCHAR(15) NULL,
+    [addemailid] VARCHAR(230) NULL,
+    [sex] CHAR(1) NULL,
+    [dob] DATETIME NULL,
+    [introducer] VARCHAR(30) NULL,
+    [approver] VARCHAR(30) NULL,
+    [interactmode] TINYINT NULL,
+    [passport_no] VARCHAR(30) NULL,
+    [passport_issued_at] VARCHAR(30) NULL,
+    [passport_issued_on] DATETIME NULL,
+    [passport_expires_on] DATETIME NULL,
+    [licence_no] VARCHAR(30) NULL,
+    [licence_issued_at] VARCHAR(30) NULL,
+    [licence_issued_on] DATETIME NULL,
+    [licence_expires_on] DATETIME NULL,
+    [rat_card_no] VARCHAR(30) NULL,
+    [rat_card_issued_at] VARCHAR(30) NULL,
+    [rat_card_issued_on] DATETIME NULL,
+    [votersid_no] VARCHAR(30) NULL,
+    [votersid_issued_at] VARCHAR(30) NULL,
+    [votersid_issued_on] DATETIME NULL,
+    [it_return_yr] VARCHAR(30) NULL,
+    [it_return_filed_on] DATETIME NULL,
+    [regr_no] VARCHAR(50) NULL,
+    [regr_at] VARCHAR(50) NULL,
+    [regr_on] DATETIME NULL,
+    [regr_authority] VARCHAR(50) NULL,
+    [client_agreement_on] DATETIME NULL,
+    [sett_mode] VARCHAR(50) NULL,
+    [dealing_with_other_tm] VARCHAR(50) NULL,
+    [other_ac_no] VARCHAR(50) NULL,
+    [introducer_id] VARCHAR(50) NULL,
+    [introducer_relation] VARCHAR(50) NULL,
+    [repatriat_bank] NUMERIC(18, 0) NULL,
+    [repatriat_bank_ac_no] VARCHAR(30) NULL,
+    [chk_kyc_form] TINYINT NULL,
+    [chk_corporate_deed] TINYINT NULL,
+    [chk_bank_certificate] TINYINT NULL,
+    [chk_annual_report] TINYINT NULL,
+    [chk_networth_cert] TINYINT NULL,
+    [chk_corp_dtls_recd] TINYINT NULL,
+    [Bank_Name] VARCHAR(50) NULL,
+    [Branch_Name] VARCHAR(50) NULL,
+    [AC_Type] VARCHAR(10) NULL,
+    [AC_Num] VARCHAR(20) NULL,
+    [Depository1] VARCHAR(7) NULL,
+    [DpId1] VARCHAR(16) NULL,
+    [CltDpId1] VARCHAR(16) NULL,
+    [Poa1] CHAR(1) NULL,
+    [Depository2] VARCHAR(7) NULL,
+    [DpId2] VARCHAR(16) NULL,
+    [CltDpId2] VARCHAR(16) NULL,
+    [Poa2] CHAR(1) NULL,
+    [Depository3] VARCHAR(7) NULL,
+    [DpId3] VARCHAR(16) NULL,
+    [CltDpId3] VARCHAR(16) NULL,
+    [Poa3] CHAR(1) NULL,
+    [rel_mgr] VARCHAR(10) NULL,
+    [c_group] VARCHAR(10) NULL,
+    [sbu] VARCHAR(10) NULL,
+    [Status] CHAR(1) NULL,
+    [Imp_Status] TINYINT NULL,
+    [ModifidedBy] VARCHAR(25) NULL,
+    [ModifidedOn] DATETIME NULL,
+    [Bank_id] NUMERIC(18, 0) NULL,
+    [Mapin_id] VARCHAR(12) NULL,
+    [UCC_Code] VARCHAR(12) NULL,
+    [Micr_No] VARCHAR(10) NULL,
+    [Director_name] VARCHAR(200) NULL,
+    [paylocation] VARCHAR(20) NULL,
+    [FMCode] VARCHAR(10) NULL,
+    [INCOME_SLAB] INT NULL,
+    [NETWORTH_SLAB] INT NULL,
+    [PARENTCODE] VARCHAR(10) NULL,
+    [PRODUCTCODE] VARCHAR(10) NULL,
+    [RES_PHONE1_STD] VARCHAR(5) NULL,
+    [RES_PHONE2_STD] VARCHAR(5) NULL,
+    [OFF_PHONE1_STD] VARCHAR(5) NULL,
+    [OFF_PHONE2_STD] VARCHAR(5) NULL,
+    [P_PHONE_STD] VARCHAR(5) NULL,
+    [GST_NO] VARCHAR(20) NULL,
+    [GST_LOCATION] VARCHAR(100) NULL
+);
+
+GO
+
