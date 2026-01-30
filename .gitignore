@@ -1,0 +1,4 @@
+central_logs/
+Backup/
+*.log
+*.tmp
