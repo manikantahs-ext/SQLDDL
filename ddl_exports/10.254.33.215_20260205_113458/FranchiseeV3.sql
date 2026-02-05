@@ -1,0 +1,6 @@
+-- ERROR extracting database FranchiseeV3
+-- Server: 10.254.33.215
+-- Time: 2026-02-05T11:35:01.947335
+
+-- Exception: ('42000', "[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The target database, 'FranchiseeV3', is participating in an availability group and is currently not accessible for queries. Either data movement is suspended or the availability replica is not enabled for read access. To allow read-only access to this and other databases in the availability group, enable read access to one or more secondary availability replicas in the group.  For more information, see the ALTER AVAILABILITY GROUP statement in SQL Server Books Online. (976) (SQLDriverConnect); [42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The target database, 'FranchiseeV3', is participating in an availability group and is currently not accessible for queries. Either data movement is suspended or the availability replica is not enabled for read access. To allow read-only access to this and other databases in the availability group, enable read access to one or more secondary availability replicas in the group.  For more information, see the ALTER AVAILABILITY GROUP statement in SQL Server Books Online. (976)")
+
